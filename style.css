@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
 
 a{
     text-decoration: none;
@@ -7,12 +8,16 @@ a{
     max-width: 1200px;
     margin: 0 auto;
 }
-
+img {
+    max-width: 100%;
+    display: block;
+}
 /** Header y Navegacion **/
 .nombre-sitio {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    font-size: 30px;
 }
 
 .nombre-sitio span {
@@ -35,6 +40,7 @@ a{
 .contenedor h2 {
     text-align: center;
 }
+/** Categorias **/
 .listado-categorias {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -42,4 +48,9 @@ a{
 .listado-categorias a {
     display: block;
     text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #037bc0;
+    color: #e1e1e1;
+    border-bottom-right-radius: 30px;
 }
